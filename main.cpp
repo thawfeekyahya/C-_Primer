@@ -9,6 +9,7 @@
 #include "ReadFile.h"
 #include "Nested.h"
 #include "FileStream.h"
+#include "FunctionPointer.h"
 
 #ifdef USE_CHAP3
 #   include "NumberSysTest.h"
@@ -54,7 +55,9 @@ int main(int argc, char *argv[])
 
 //    CompundTypes t;
     pf = quickTest;
-    pf();
+    // pf();
+    FunctionPointer fp;
+
 
 //    Nested nesting;
 

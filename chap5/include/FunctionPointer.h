@@ -12,6 +12,7 @@ class FunctionPointer {
         void pointerArgs(void (FunctionPointer::*func)(int),int count);
 };
 
+typedef void (FunctionPointer::*PtrFunc)(int);
 
 
 #endif // FUNCTIONPOINTER_H
