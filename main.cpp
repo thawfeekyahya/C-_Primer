@@ -14,6 +14,7 @@
 #   include "NumberSysTest.h"
 #endif
 
+void (*pf)();
 
 void quickTest() {
  int i;
@@ -52,7 +53,8 @@ int main(int argc, char *argv[])
 //    cmpdTypes[2].stdInput();
 
 //    CompundTypes t;
-    quickTest();
+    pf = quickTest;
+    pf();
 
 //    Nested nesting;
 
