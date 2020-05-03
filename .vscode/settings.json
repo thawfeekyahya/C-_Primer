@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH":"/opt/Qt5.12.6/5.12.6/gcc_64/lib/cmake",
+        "TARGET_INCLUDE_DIRECTORIES":""
+    },
+    "C_Cpp.default.includePath": ["/opt/Qt5.12.6/5.12.6/gcc_64/include/**","${workspaceFolder}/**"]
+}

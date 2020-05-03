@@ -1,0 +1,5 @@
+#define CPP_Primer_VERSION_MAJOR @CPP_Primer_VERSION_MAJOR@
+#define CPP_Primer_VERSION_MINOR @CPP_Primer_VERSION_MINOR@
+#cmakedefine USE_CHAP3
+
+
